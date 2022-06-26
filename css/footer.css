@@ -1,0 +1,113 @@
+footer{
+    width: 100%;
+    background: #1749B3;
+}
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.footer__logo p {
+    width: 65%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
+.logo__icon{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.logo__icon span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;;
+}
+.logo__icon p{
+    padding-top: 46px;
+}
+.footer__navigation span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.footer__navigation p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #d0d0d0;
+    margin-top: 12px;
+}
+.footer_language{
+    padding-top: 20px;
+}
+.footer__language span{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #FFFFFF;
+    float: right;
+}
+.footer_language li{
+    list-style:none;
+}
+.footer_language li a {
+    text-decoration: none;
+    transition: color 0.2 ease;
+}
+.footer_language li a:hover{
+    color: #1749B3;
+}
+.footer__english__menu{
+    position: relative;
+    float: right;
+}
+.footer__submenu{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 1%;
+    color: #FFFFFF;
+}
+.footer__submenu__arrow{
+    cursor: pointer;
+}
+.submenu__wrap{
+    position: absolute;
+    top: 49px;
+    width: 347%;
+    height: 182px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 48px rgba(177, 177, 177, 0.4);
+    border-radius: 16px;
+    padding: 0;
+    text-align: center;
+    display: none;
+}
+.submenu__wrap.active {
+    display: block;
+    animation: fade .3s linear;
+}
+.subfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.subfooter span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D3D3D3;
+    cursor: pointer;
+}
+.subfooter span:hover{
+    opacity: 0.9;
+    color: brown;
+}

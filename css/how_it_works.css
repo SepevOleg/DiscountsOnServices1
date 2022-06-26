@@ -1,0 +1,128 @@
+.how_it_works{
+    width: 100%;
+    background-color:  #ECF3FB;
+}
+.header__how_it_works{
+    text-align: center;
+}
+.header__how_it_works h1{
+    padding-bottom: 42px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 44px;
+    color: #171717;
+}
+.product__how_it_works{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 20px;
+}
+.wrap__how_it_works{
+    width: 388px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 28px rgba(244, 245, 245, 0.2);
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.content__how_it_works{
+    padding: 149px 0px 0px 40px;
+    align-items: center;
+}
+.content__how_it_works h3{
+    width: 41%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #171717;
+}
+.how_it_works .step{
+    width: 74%;
+}
+.content__how_it_works p{
+    width: 111%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    padding-top: 26px;
+    text-align: start;
+}
+
+/* Discounts On Services */
+
+.invite_friends_how_it_works{
+    width: 100%;
+    height: 203px;
+    background: #1749B3;
+    box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+    border-radius: 32px;
+}
+.spenser_how_it_works{
+    display: flex;
+    justify-content: space-between;
+}
+.spenser_selover{
+    padding-top: 44px;
+}
+.spenser_selover h3{
+    width: 52%;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.spenser_selover p{
+    width: 165%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    text-align: start;
+    padding-top: 24px;
+    padding-left: 80px;
+}
+.window_click{
+    padding: 40px 80px 40px;
+}
+.click_link{
+    width: 445px;
+    height: 123px;
+    background: #F1F4F8;
+    border-radius: 16px;
+}
+.window__text{
+    display: flex;
+    flex-direction: column;
+    transition: color 0.2 ease;
+}
+.window__text span:hover{
+    opacity: 0.9;
+    color: #dc0000;
+}
+.click_on{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #171717;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+.discounts_on{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1749B3;
+
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.discounts_on::after{
+    content: url(../how_it_works_img/discounts.png);
+    margin-left: 11px;
+}

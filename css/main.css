@@ -1,0 +1,57 @@
+.main{
+    width: 100%;
+    height: 700px;
+    background-color:  #ECF3FB;
+}
+.netflix{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 61px;
+}
+.benefits_menu{
+    width: 50%;
+    height: 500px;
+    background: #1749B3;
+    border-radius: 32px;
+    padding-left: 5%;
+}
+.benefits_menu h2{
+    width: 81%;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    padding-top: 114px;
+}
+.benefits_menu p{
+    width: 76%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+.btn_start{
+    width: 26%;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 16px 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn_benefits{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #171717;
+    text-decoration: none;
+    transition: opacity 0,3s ease;
+}
+.btn_benefits:hover{
+    opacity: 0.9s;
+    color: #dc0000;
+}
+.netflix__menu img{
+    border-radius: 32px;
+}

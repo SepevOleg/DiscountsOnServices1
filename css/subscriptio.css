@@ -1,0 +1,68 @@
+.subscription{
+    width: 100%;
+    background-color:  #ECF3FB;
+}
+.header__subscription{
+    display: flex;
+    justify-content: center;
+}
+.header__subscription h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #171717;
+    display: flex;
+    text-align: center;
+    padding-bottom: 38px;
+}
+.product__subscription{ 
+    width: 100%;
+    height: 342px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+    border-radius: 32px;
+    margin-bottom: 16px;
+}
+.wrap__subscription{
+    display: flex;
+}
+.content__subscription{
+    flex-wrap: wrap;
+    padding: 60px 0px 0px 60px;
+}
+.content__subscription h2{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #171717;
+}
+.content__subscription p{
+    width: 72%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    padding-top: 22px;
+    padding-bottom: 38px;
+}
+.btn__subscription{
+    width: 26%;
+    padding: 16px 24px 16px 24px;
+    background: #1749B3;
+    border-radius: 16px;
+}
+.btn__subscription:hover{
+    opacity: 0.9;
+    color:aqua
+}
+.btn__pressing{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2 ease;
+}
+.img_youtube{
+    background: #E1DCEB;
+    border-radius: 32px;
+}

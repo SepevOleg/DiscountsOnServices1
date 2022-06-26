@@ -1,0 +1,52 @@
+.about__us{
+    width: 100%;
+    background-color:  #ECF3FB;
+    padding-top: 120px;
+}
+.heder__about__us h1{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 44px;
+    color: #171717;
+    text-align: center;
+}
+.menu__about_us{
+    display: flex;
+    gap: 16px;
+    padding-top: 37px;
+}
+.description__about_us{
+    width: 50%;
+    height: 535px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+    border-radius: 32px;
+}
+.main__content__about_us{
+    padding: 60px;
+}
+.main__content__about_us p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    padding-top: 32px;
+}
+.main__content__about_us .underlining{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #171717;
+}
+.myself_img{
+    width: 50%;
+    height: 535px;
+}
+.main__img{
+    background-image: url(../about_us_img/img_menu.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    box-shadow: 0px 12px 28px rgba(244, 245, 245, 0.2);
+    border-radius: 32px;
+}
