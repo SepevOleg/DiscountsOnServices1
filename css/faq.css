@@ -105,3 +105,9 @@
     opacity: 0.9;
     color: #1749B3;
 }
+@media screen and (max-width: 1200px){
+.faq__request__content h4 {
+    font-weight: 700;
+    font-size: 17px;
+    }
+}

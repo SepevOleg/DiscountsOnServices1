@@ -32,22 +32,24 @@
                   </div>
                </a>
                   <nav class="menu__body">
-                     <ul class="menu__list">
-                           <li class="menu__item with__submenu"><a data-goto="Направить экран к описанию" href="menu__link">Subscriptions</a>
-                              <a href="#" class="menu__item-link" data-scroll>
-                                 <img src="./header_img/arrow.svg" alt="" class="submenu__arrow">
-                              </a>
-                              <ul class="submenu">
-                                 <li class="submenu__item"><a href="#" class="submenu__link">Netflix</a></li>
-                                 <li class="submenu__item"><a href="#" class="submenu__link">YouTube Premium</a></li>
-                                 <li class="submenu__item"><a href="#" class="submenu__link">Spotify</a></li>
-                              </ul>
-                           </li>
-                           <li><a data-goto="Направить экран к описанию" href="/menu__link.html">FAQ</a></li>
-                           <li><a data-goto="Направить экран к описанию" href="/menu__link.html">Support</a></li>
-                           <li><a data-goto="Направить экран к описанию" href="/menu__link.html">About</a></li>
+                     <ul class="menu__list" id="menu">
+                        <li class="menu__item with__submenu"><a data-goto="Направить экран к описанию" href="menu__link">Subscriptions</a>
+                           <a href="#" class="menu__item-link" data-scroll>
+                              <img src="./header_img/arrow.svg" alt="" class="submenu__arrow">
+                           </a>
+                           <ul class="submenu" id="menu">
+                              <li class="submenu__item"><a href="#" class="submenu__link">Netflix</a></li>
+                              <li class="submenu__item"><a href="#" class="submenu__link">YouTube Premium</a></li>
+                              <li class="submenu__item"><a href="#" class="submenu__link">Spotify</a></li>
+                           </ul>
+                        </li>
+                        <li id="home"><a href="/menu__link.html">Home</a></li>
+                        <li><a href="/menu__link.html">FAQ</a></li>
+                        <li><a href="/menu__link.html">Support</a></li>
+                        <li><a href="/menu__link.html">About</a></li>
                      </ul>
                   </nav>
+               <div class="popup" id="popup"></div>   
                <div class="icon__messengers">
                   <img a href="tel" img src="./header_img/tel.svg" alt="phone">
                   <img a data-goto="https://desktop.telegram.org/?setln=ru" href="phone" src="./header_img/teleg.svg" alt="telegram">
@@ -65,8 +67,13 @@
                   </li>
                </div>
                <div class="btn_login">
-                  <a href="btn" class="btn_text">Log in</a>
+                  <a href="btn" class="btn_log">Log in</a>
+                  <a href="btn" class="btn_sig">Sign up</a>
                </div>
+               <div class="hamb__field" id="hamb">
+                  <img src="./header_img/gamburger.png" width="18px" height="16px" alt="gamburger">
+               </div>
+            </div>
          </div>
       </div>      
    </header>
@@ -103,7 +110,7 @@
                               <a href="https://www.google.com/search?q=netflix&tbm=isch&source=iu&ictx=1&vet=1&fir=GuCWfA6SqEMrTM%252CKS-nzTnc8HxGQM%252C%252Fm%252F017rf_&usg=AI4_-kQumLNY7jmnaULgpYyNSRBHDUV-Jw&sa=X&ved=2ahUKEwj-4LOI-r34AhUGjosKHboBBIMQ_B16BAhEEAI&biw=2133&bih=1041&dpr=0.9#imgrc=GuCWfA6SqEMrTM" class="btn__pressing">Learn more</a>
                         </div>
                      </div>
-                     <img src="./subscriptio_img/netflix.svg"  alt="img" width="588px" height="342px">
+                     <img id="whole__block" src="./subscriptio_img/netflix.svg"  alt="img" width="588px" height="342px">
                      </div>
                   </div>
                      <div class="product__subscription">
@@ -114,8 +121,8 @@
                               <div class="btn__subscription">
                                  <a href="https://www.google.com/search?q=netflix&tbm=isch&source=iu&ictx=1&vet=1&fir=GuCWfA6SqEMrTM%252CKS-nzTnc8HxGQM%252C%252Fm%252F017rf_&usg=AI4_-kQumLNY7jmnaULgpYyNSRBHDUV-Jw&sa=X&ved=2ahUKEwj-4LOI-r34AhUGjosKHboBBIMQ_B16BAhEEAI&biw=2133&bih=1041&dpr=0.9#imgrc=GuCWfA6SqEMrTM" class="btn__pressing">Learn more</a>
                               </div>
-                        </div>
-                        <img src="./subscriptio_img/sportify.svg" alt="img" width="588px" height="342px">
+                           </div>
+                           <img id="whole__block" src="./subscriptio_img/sportify.svg" alt="img" width="588px" height="342px">
                         </div>
                      </div>
                         <div class="product__subscription">
@@ -127,12 +134,13 @@
                                     <a href="https://www.youtube.com/" class="btn__pressing">Learn more</a>
                                  </div>
                               </div>
-                                 <img class="img_youtube" src="./subscriptio_img/youtube.svg" alt="img" width="588px" height="342px">
-                                 </div>
+                              <img class="img_youtube." id="whole__block" src="./subscriptio_img/youtube.svg" alt="img" width="588px" height="342px">
                               </div>
+                           </div>
                         </div>
                      </div>
                   </div>
+               </div>
             </div>
          </div>         
       </section>
@@ -144,23 +152,23 @@
                   <div class="wrap__how_it_works">
                      <div class="content__how_it_works">
                         <h3>Step 1</h3>
-                        <p>Enter your account information</p>
+                        <p>Enter your account<br>information</p>
                      </div>
-                     <img src="./how_it_works_img/step1.png" alt="img" width="185px" height="185px">
+                     <img class="img__block" src="./how_it_works_img/step1.png" alt="img" width="185px" height="185px">
                      </div>
                   <div class="wrap__how_it_works">
                      <div class="content__how_it_works">
                         <h3>Step 2</h3>
-                        <p>Select the desired subscription and plan</p>
+                        <p>Select the desired<br>subscription and plan</p>
                      </div>
-                     <img src="./how_it_works_img/step2.png" alt="img" width="185px" height="185px">
+                     <img class="img__block" src="./how_it_works_img/step2.png" alt="img" width="185px" height="185px">
                      </div>
                   <div class="wrap__how_it_works">
                      <div class="content__how_it_works">
                         <h3 class="step">Step 3</h3>
                         <p>Pay your bill<br>with PayPal</p>
                      </div>
-                     <img src="./how_it_works_img/step3.png" alt="img" width="185px" height="185px">
+                     <img class="img__block" src="./how_it_works_img/step3.png" alt="img" width="185px" height="185px">
                      </div>
                   </div>
                <div class="invite_friends_how_it_works">

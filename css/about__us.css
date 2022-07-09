@@ -50,3 +50,8 @@
     box-shadow: 0px 12px 28px rgba(244, 245, 245, 0.2);
     border-radius: 32px;
 }
+@media screen and (max-width: 1200px){
+    .main__content__about_us {
+        padding: 28px;
+    }
+}

@@ -14,6 +14,10 @@
     font-size: 1rem;
     line-height: 20px;
     margin-left: 8px;
+    color: #171717;
+}
+.header__logo span{
+    text-decoration: none !important;
 }
 .menu__list { 
     display: flex;
@@ -38,6 +42,9 @@
 }
 .submenu__arrow{
     cursor: pointer;
+}
+#home{
+    display: none;
 }
 .with__submenu{
     position: relative; 
@@ -118,18 +125,76 @@
     color: #171717;
     padding-top: 27px;
 }
+.popup {
+    display: none;
+  }
 .btn_login{
     background-color: #1749B3;
     border-radius: 12px;
-    padding: 9px 41px; 
+    padding: 9px 41px;
 }
 .btn_login:hover{
     opacity: 0.9;
     color: #dc0000;
 }
-.btn_text{
+.btn_log{
     color: #fff;
     text-align: center;
     text-decoration: none;
     transition: opacity 0,3s ease;
 }
+.btn_sig{
+    display: none;
+}
+.hamb__field{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+/* media_-_ */
+
+@media screen and (max-width: 1200px){
+    .menu__body {
+        display: none;
+    }
+    .icon__messengers{
+        display: none;
+    }
+    .english__menu{
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .btn_login{
+        display: none;
+    }
+    .hamb__field{
+        display: block;
+        transition: 0.2s;
+    }
+    .popup {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+
+        background-color: #ECF3FB;
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+        overflow-y: hidden;
+      }
+    .popup.open{
+        left: 0;
+    }
+    .with__submenu{
+        display: none;
+    }
+    #home{
+        display: block;
+    }
+}
+    

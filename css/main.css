@@ -55,3 +55,36 @@
 .netflix__menu img{
     border-radius: 32px;
 }
+@media screen and (max-width: 1200px){
+    .main{
+        height: 498px;
+    }
+    .netflix{
+        padding-top: 52px;
+    }
+    .benefits_menu {
+        width: 52%;
+        height: 30%;
+        padding-left: 49px;
+        padding-bottom: 24px;
+    }
+    .netflix__menu img {
+        width: 464px;
+        height: 359px;
+    }
+    .benefits_menu h2 {
+        width: 64%;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 42px;
+        padding-top: 20px;
+    }
+    .benefits_menu p {
+        width: 60%;
+    }
+    .btn_start {
+        width: 49%;        
+        border-radius: 16px;
+        padding: 14px 62px;
+    }
+}

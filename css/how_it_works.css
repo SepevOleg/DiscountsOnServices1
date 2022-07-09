@@ -126,3 +126,26 @@
     content: url(../how_it_works_img/discounts.png);
     margin-left: 11px;
 }
+@media screen and (max-width: 1200px){
+    .wrap__how_it_works {
+        height: 201px;
+    }
+    .content__how_it_works {
+        padding: 48px 0px 0px 20px;
+    }
+    .content__how_it_works h3 {
+        width: 65%;
+    }
+    .img__block{
+        width: 120px;
+        height: 120px;
+    }
+    .spenser_selover h3 {
+        width: 69%;  
+    }
+    .spenser_selover p {
+    width: 165%;
+    padding-top: 18px;
+    padding-left: 44px;
+    }
+}
