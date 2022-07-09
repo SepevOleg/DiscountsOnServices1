@@ -55,3 +55,35 @@
         padding: 28px;
     }
 }
+@media screen and (max-width: 960px){
+    .heder__about__us h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .description__about_us {
+        height: 414px;
+    }
+    .main__content__about_us {
+        padding: 20px;
+    }
+    .main__content__about_us img{
+        width: 60px;
+        height: 60px;
+    }
+    .main__content__about_us p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        color: #333333;
+        padding-top: 20px;
+    }
+    .main__content__about_us .underlining {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .main__img{
+        width: 341px;
+        height: 412px;
+    }
+    
+}
