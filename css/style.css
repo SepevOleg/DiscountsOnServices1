@@ -46,9 +46,9 @@ header{
     width: 960px;
   }
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 960px ){
   .container{
-    width: 688px;
+    width: 688px !important;
   }
 }
 @media screen and (max-width: 720px){

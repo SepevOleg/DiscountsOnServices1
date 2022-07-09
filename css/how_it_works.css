@@ -149,3 +149,58 @@
     padding-left: 44px;
     }
 }
+@media screen and (max-width: 960px){
+    .header__how_it_works h1 {
+        padding-bottom: 33px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .wrap__how_it_works {
+        height: 186px;
+    }
+    .wrap__how_it_works{
+        justify-content: none;
+    }
+    .img__block {
+        width: 81px;
+        height: 81px;
+        position: relative;
+        top: 30px;
+        right: 26px;
+    }
+    .content__how_it_works h3 {
+        width: 49%;
+    }
+    .content__how_it_works h3 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .content__how_it_works p {
+        width: 162%;
+        font-size: 17px;
+        line-height: 25px;
+        padding-top: 39px;
+        padding-left: 0px;
+    }
+    .invite_friends_how_it_works {
+        width: 100%;
+        height: 210px;
+    }
+    .spenser_selover h3 {
+        width: 102%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .spenser_selover p {
+        width: 137%;
+        padding-left: 16px;
+        padding-left: 32px;
+    }
+    .window_click {
+        padding: -61px 33px 53px !important;
+    }
+    .click_link {
+        width: 336px;
+        height: 104px;
+    }
+}
