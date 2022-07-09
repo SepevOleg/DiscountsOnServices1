@@ -93,3 +93,40 @@
         padding-bottom: 31px;
     }
 }
+@media screen and (max-width: 960px){
+    .header__subscription h1 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .product__subscription {
+        width: 100%;
+        height: 199px;
+    }
+    #whole__block {
+        width: 346px;
+        position: relative;
+        top: -71px;
+    }
+    .content__subscription {
+        padding: 0px 45px 10px 32px;
+    }
+    .content__subscription h2 {
+        width: 267px;
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 49px;
+        padding-bottom: 24px;
+    }
+    .content__subscription p{
+        display: none;
+    }
+    .btn__pressing{
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .btn__subscription {
+        width: 129px;
+        padding: 14px 24px 14px 24px;
+    }
+}

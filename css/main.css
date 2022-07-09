@@ -88,3 +88,35 @@
         padding: 14px 62px;
     }
 }
+@media screen and (max-width: 960px){
+    .benefits_menu {
+        width: 101%;
+        padding-left: 20px;
+        padding-bottom: 8px;
+    }
+    .netflix__menu img {
+        width: 344px;
+        height: 293px;
+    }
+    .benefits_menu{
+        width: 101%;
+        padding-left: 20px;
+        padding-bottom: 24px;
+    }
+    .benefits_menu h2 {
+        width: 92%;
+    font-size: 28px;
+    line-height: 39px;
+    padding-top: 17px;
+    }
+    .benefits_menu p {
+        width: 91%;
+        padding-top: 16px;
+    }
+    .btn_start {
+        width: 71%;
+    }
+    .btn_benefits {
+        font-size: 1.1rem;
+    }
+}
