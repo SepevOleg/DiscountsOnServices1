@@ -120,3 +120,25 @@
         font-size: 1.1rem;
     }
 }
+@media screen and (max-width: 480px){
+    .main{
+        height: 728px;
+    }
+    .netflix { 
+        padding-top: 48px;
+        flex-wrap: wrap-reverse;
+    }
+    .netflix__menu img {
+        width: 327px;
+        height: 276px;
+    }
+    .benefits_menu h2 {
+        width: 83%;
+    }
+    .benefits_menu p {
+        width: 83%;
+    }
+    .btn_start {
+        width: 94%;
+    }
+}
