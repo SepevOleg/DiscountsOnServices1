@@ -197,4 +197,15 @@ a{
         display: block;
     }
 }
+@media screen and (max-width: 720px){
+    
+}
+@media screen and (max-width: 480px){
+    .container{
+        width: 330px;
+      }
+    .header__logo span{
+        display: none;
+    }
+}
     

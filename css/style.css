@@ -60,8 +60,7 @@ header{
   }
 }
 @media screen and (max-width: 480px){
-  .container{
-    width: 320px;
-    padding: 0 15px;
+  body .container{
+    width: 330px;
   }
 }

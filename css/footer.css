@@ -112,5 +112,23 @@ footer{
     color: brown;
 }
 @media screen and (max-width: 960px ){
-    
+    .logo__icon span{
+        display: none;
+    }
+    .footer__logo p {
+        margin-top: 12px;
+    }
+    .footer__mesenger img{
+        width: 29px;
+        height: 29px;
+    }
+    .footer_language img{
+        width: 6px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+    .subfooter span {
+        font-size: 15px;
+        line-height: 19px;
+    }
 }
